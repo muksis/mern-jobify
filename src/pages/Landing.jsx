@@ -1,5 +1,5 @@
 import logo from '../assets/images/logo.svg';
-import main from '../assets/images/main.svg';
+import main from '../assets/images/main-alternative.svg';
 import Wrapper from '../assets/wrappers/LandingPage';
 
 const Landing = () => {
