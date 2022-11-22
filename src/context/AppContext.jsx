@@ -10,10 +10,10 @@ import {
   SETUP_USER_ERROR,
 } from './actions';
 
-const token = localStorage.getItem('user');
-const user = localStorage.getItem('token');
+const token = localStorage.getItem('token');
+const user = localStorage.getItem('user');
 const userLocation = localStorage.getItem('location');
-
+console.log(user);
 const initialState = {
   isLoading: false,
   showAlert: false,
