@@ -62,10 +62,10 @@ const AppProvider = ({ children }) => {
         `/api/v1/auth/${endPoint}`,
         currentUser
       );
-      const { user, token, location, alertText } = data;
+      const { user, token, location } = data;
       dispatch({
         type: SETUP_USER_SUCCESS,
-        payload: { user, token, location },
+        payload: { user, token, location, alertText },
       });
       addUserToLocalStorage({ user, token, location });
     } catch (error) {
