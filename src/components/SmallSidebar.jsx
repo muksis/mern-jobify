@@ -32,7 +32,7 @@ const SmallSidebar = () => {
                   key={id}
                   onClick={toggleSidebar}
                   className={({ isActive }) =>
-                    isActive ? 'nav-links active' : 'nav-link'
+                    isActive ? 'nav-link active' : 'nav-link'
                   }
                 >
                   <span className='icon'>{icon}</span>
